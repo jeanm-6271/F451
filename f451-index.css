@@ -1,9 +1,16 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Redaction+35:ital,wght@0,400;0,700;1,400&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+
 /*heading*/
 .heading{
      padding:10px;
      font-size:35px;
-     background-color:grey;
+     background-image:url('https://s2.ezgif.com/tmp/ezgif-2b026b686a68ad90.gif');
+     background-repeat:repeat-x;
+     background-size:cover;
      margin:0px;
+     color:white;
+     font-family:"Redaction 50";
 }
 
 .headspan{
@@ -14,6 +21,8 @@
 /*page's body*/
 body{
      padding:0% 25%;
+     font-size:14px;
+     font-family:"Geist Pixel";
 }
 
 .wholebody{
@@ -26,19 +35,22 @@ body{
      background-color:grey;
 }
 
+.navlink:hover{
+     font-size:16px;
+     rotate:-3deg;
+}
+
 .navlink{
      text-decoration:none;
      display:block;
-     padding:10px;
-}
-
-.nav, .main{
-     display:inline-block;
+     padding:10px 30px 10px 10px;
 }
 
 /*main content*/
 .main{
-     margin:0;
-     padding:0;
-     background-color:lightblue;
+     display:flex;
+}
+
+.content{
+     margin:10px;
 }
