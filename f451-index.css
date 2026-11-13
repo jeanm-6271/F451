@@ -1,13 +1,16 @@
-/*fonts*/
+/*fonts and colors*/
 @import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Redaction+35:ital,wght@0,400;0,700;1,400&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+
+::selection{
+     background:rgba(196, 91, 46,0.5);
+     color:#ffefdf;
+}
 
 /*heading*/
 .heading{
      padding:10px;
      font-size:35px;
-     background-image:url('https://s2.ezgif.com/tmp/ezgif-2b026b686a68ad90.gif');
-     background-repeat:repeat-x;
-     background-size:cover;
+     background:linear-gradient(to top, #3b1d26, #692934, #78362d);
      margin:0px;
      color:white;
      font-family:"Redaction 50";
@@ -16,34 +19,49 @@
 .headspan{
      font-size:22px;
      display:block;
+     font-weight:lighter;
+     opacity:.7;
+}
+
+.headandimg{
+     display:flex;
 }
 
 /*page's body*/
 body{
-     padding:0% 25%;
+     padding:0% 22%;
      font-size:14px;
      font-family:"Geist Pixel";
+background:linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy-hZFO3aToofcAGSWiogxbapwGEdoCB4HNT5tV8qKufIQnHgCyrgjDyk&s=10');
 }
 
 .wholebody{
-     background-color:lightgrey;
+     background-color:rgba(0,0,0,0.3);
      height:100%;
+     box-shadow:0px 0px 20px 5px rgba(255,255,255,0.1);
 }
 
 /*navigation*/
 .nav{
-     background-color:grey;
+     background-color:#434d47;
 }
 
 .navlink:hover{
      font-size:16px;
-     rotate:-3deg;
+     rotate:-2deg;
+     text-shadow:0px 0px 20px white;
+}
+
+.about:hover{
+     rotate:2deg;
 }
 
 .navlink{
      text-decoration:none;
      display:block;
      padding:10px 30px 10px 10px;
+     color:rgba(255,255,255,0.7);
+     font-size:14px;
 }
 
 /*main content*/
@@ -53,4 +71,9 @@ body{
 
 .content{
      margin:10px;
+     color:white;
+}
+
+p{
+     line-height:1.5;
 }
