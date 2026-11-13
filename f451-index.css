@@ -1,0 +1,44 @@
+/*heading*/
+.heading{
+     padding:10px;
+     font-size:35px;
+     background-color:grey;
+     margin:0px;
+}
+
+.headspan{
+     font-size:22px;
+     display:block;
+}
+
+/*page's body*/
+body{
+     padding:0% 25%;
+}
+
+.wholebody{
+     background-color:lightgrey;
+     height:100%;
+}
+
+/*navigation*/
+.nav{
+     background-color:grey;
+}
+
+.navlink{
+     text-decoration:none;
+     display:block;
+     padding:10px;
+}
+
+.nav, .main{
+     display:inline-block;
+}
+
+/*main content*/
+.main{
+     margin:0;
+     padding:0;
+     background-color:lightblue;
+}
